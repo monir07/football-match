@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* main banner start here */
+.top-banner{
+    height: 500px;
+    background-color:#2d25a0;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.half-width{
+    width: 550px;
+    height: auto;
+    overflow: hidden;
+    align-items: center;
+    padding: 20px;
+    
+}
+.half-width img{
+    margin-top: 20px;
+    width: 100%;
+}
+.half-width h1{
+    font-size: 60px;
+    font-weight: bold;
+    color:white;
+}
+
+.anchor-button{
+    text-decoration: none;
+    background:#e02c6d;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;            
+}
+
+.anchor-button:hover{
+    background:#ac013f;
+}
+
+/* player profile section start here  */
+.player-profile{
+    width: 1024px;
+	min-height: 300px;
+	margin: 30px auto;
+    justify-content: space-between;
+	display: -webkit-flex; /* Safari */		
+	display: flex; /* Standard syntax */
+    flex-wrap: wrap;
+}
+.profile{
+    width: 300px;
+    height: 450px;
+    background:rgb(255, 255, 255);
+    margin:20px;
+    align-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.photo{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.photo img{
+    margin-top: 10px;
+    width: 90%;
+    margin-left:15px;
+}
+
+.about-text{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #6c6c6c;
+}
+
+.about-text h2{
+    color: black;
+}
+
+.about-text p{
+    line-height: 1.7;
+}
+
+/* carousel section start here  */
+.carousel{
+    margin-top: 70px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    height:auto;
+}
+.carousel h1{
+    color: black;
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+.carousel p{
+    color: #6c6c6c;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+/* contact for start here */
+
+.registraion{
+    margin-top: 70px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    height:auto;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.hidden {
+    visibility: hidden;
+}
+.r_hidden{
+    visibility: hidden;
+}
+input[type=submit] {
+    background-color: #e02c6d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+/* contact for end  here */
+
+/* footer start here */
+.footer{
+    margin-top: 70px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 20%;
+}
+.icon {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    background-color: #e7e7e8;
+    color: #969bab;
+}
+.icon:hover {
+    color: #353946;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+
+.copyright p{
+    color: black;
+    font-size: 20px;
+}
+/* footer end  here */
+
+/* mobile device for iphone-x media query start here  */
+@media only screen 
+and (max-device-width:375px){
+    .logo img{
+        width: 80%;
+    }
+    .player-profile {
+        width: 375px;
+        min-height: 300px;
+        margin: 0px auto;
+        justify-content: center;
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .profile {
+        width: 375px;
+        height: 450px;
+        background: rgb(255, 255, 255);
+        margin: 20px;
+        align-content: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+    }
+    .show{
+        display: none;
+    }
+    .hidden{
+        visibility: visible;
+    }
+    .r_hidden{
+        display: none;
+    }
+}
